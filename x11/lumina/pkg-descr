@@ -1,0 +1,11 @@
+This package is not a normal Lumina Desktop Environment install. Due to how
+Ayras is a very incomplete fork of Lumina, some important things have not
+changed making the two incompatible.
+
+This meta-package installs all the packages related to the Lumina desktop
+(specifically Potabi's Ayras desktop environment fork, which is a modified 
+Lumina). If you want more fine-grained control over the installed utilities, 
+please install the individual x11/lumina-* and deskutils/lumina-* packages 
+instead.
+
+WWW: http://lumina-desktop.org
