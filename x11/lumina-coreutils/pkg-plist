@@ -207,4 +207,4 @@ share/applications/lumina-xconfig.desktop
 %%NLS%%share/lumina-desktop/i18n/lumina-xconfig_zh_CN.qm
 %%NLS%%share/lumina-desktop/i18n/lumina-xconfig_zh_HK.qm
 %%NLS%%share/lumina-desktop/i18n/lumina-xconfig_zh_TW.qm
-%%NLS%%share/lumina-desktop/i18n/lumina-xconfig_zu.qm
+%%NLS%%share/lumina-desktop/i18n/lumina-xconfig_zu.qm 
