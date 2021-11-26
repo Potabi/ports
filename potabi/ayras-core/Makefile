@@ -1,3 +1,5 @@
+# Created by: Ken Moore <ken@pcbsd.org>
+
 PORTNAME=	lumina-core
 DISTVERSIONPREFIX=	v
 DISTVERSION=	1.6.2
@@ -37,9 +39,6 @@ OPTIONS_DEFAULT=	MULTIMEDIA
 OPTIONS_SUB=		yes
 
 MULTIMEDIA_DESC=	Install multimedia support backend (gstreamer)
-# TRUEOS_DESC=		Use the TrueOS system interface settings.
-
-# TRUEOS_QMAKE_ON=	DEFAULT_SETTINGS=TrueOS
 
 MULTIMEDIA_RUN_DEPENDS=	gstreamer1-plugins-core>=0:multimedia/gstreamer1-plugins-core
 

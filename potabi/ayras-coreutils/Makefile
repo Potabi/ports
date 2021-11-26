@@ -1,6 +1,8 @@
-PORTNAME=	lumina-coreutils
+# Created by: Ken Moore <ken@pcbsd.org>
+
+PORTNAME=	ayras-coreutils
 DISTVERSIONPREFIX=	v
-DISTVERSION=	1.6.2
+DISTVERSION=	1.6.0
 CATEGORIES=	x11
 
 MAINTAINER=	lbartoletti@FreeBSD.org
