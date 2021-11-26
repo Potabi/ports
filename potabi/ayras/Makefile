@@ -24,6 +24,6 @@ RUN_DEPENDS=	ayras-core>=0:x11/ayras-core \
 
 USES=		metaport
 
-CONFLICTS_INSTALL=	lumina
+CONFLICTS_INSTALL=	lumina-1.2.*
 
 .include <bsd.port.mk>
