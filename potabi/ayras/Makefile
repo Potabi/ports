@@ -1,8 +1,7 @@
 # Created by: Ken Moore <ken@pcbsd.org>
 
 PORTNAME=	 ayras
-PORTVERSION= 1.6.2
-PORTEPOCH=	 3
+PORTVERSION=     1.6.3
 CATEGORIES=	 x11
 
 MAINTAINER=	lbartoletti@FreeBSD.org
