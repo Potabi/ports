@@ -1,0 +1,12 @@
+[Desktop Entry]
+Exec=lumina-photo %f
+Icon=applications-graphics
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Graphics;
+MimeType=
+Name=Lumina Image Viewer
+Comment=View photo
+Name[pt]=Visualizador de imagens Lumina
+Comment[pt]=Visualização de fotos

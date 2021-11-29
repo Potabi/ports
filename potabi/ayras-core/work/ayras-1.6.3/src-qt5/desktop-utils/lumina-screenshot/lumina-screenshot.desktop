@@ -1,0 +1,11 @@
+[Desktop Entry]
+Exec=lumina-screenshot -new-instance
+Icon=camera-web
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Graphics;
+Name=Lumina Screenshot
+Comment=Take Screenshot
+Name[pt]=Captura de ecrã Lumina
+Comment[pt]=Obter capturas de ecrã

@@ -1,0 +1,26 @@
+name: "ayras-coreutils"
+version: "1.6.3"
+origin: x11/ayras-coreutils
+comment: <<EOD
+Lumina Desktop Environment
+EOD
+maintainer: lbartoletti@FreeBSD.org
+prefix: /usr/local
+categories: [ x11, ]
+licenselogic: single
+licenses: [ BSD3CLAUSE, ]
+deps: { 
+"qt5-concurrent": {origin: "devel/qt5-concurrent", version: "5.15.2_2"}
+"qt5-core": {origin: "devel/qt5-core", version: "5.15.2_6"}
+"qt5-gui": {origin: "x11-toolkits/qt5-gui", version: "5.15.2_7"}
+"qt5-imageformats": {origin: "graphics/qt5-imageformats", version: "5.15.2"}
+"qt5-multimedia": {origin: "multimedia/qt5-multimedia", version: "5.15.2_3"}
+"qt5-network": {origin: "net/qt5-network", version: "5.15.2_1"}
+"qt5-svg": {origin: "graphics/qt5-svg", version: "5.15.2_1"}
+"qt5-widgets": {origin: "x11-toolkits/qt5-widgets", version: "5.15.2_3"}
+"qt5-x11extras": {origin: "x11/qt5-x11extras", version: "5.15.2_1"}
+"xrandr": {origin: "x11/xrandr", version: "1.5.1"}
+}
+options: {
+ NLS: on,
+}
