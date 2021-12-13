@@ -1,6 +1,6 @@
 # This port is a modification of GBI by GhostBSD.
 PORTNAME=potabi-installer
-PORTVERSION=9.6
+PORTVERSION=ptbi.9.6
 CATEGORIES=sysutils
 MASTER_SITES= https://github.com/Potabi/${PORTNAME}/archive
 MAINTINER=kai@potabi.com

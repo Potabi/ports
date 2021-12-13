@@ -1,0 +1,28 @@
+#!/usr/local/bin/python
+from sys import path
+import os
+import shutil
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+
+if os.path.exists('/tmp/.gbi'):
+    shutil.rmtree('/tmp/.gbi')
+
+installer = "/usr/local/lib/gbi/"
+# path.append("/home/ericbsd/gbi/src/")
+path.append(installer)
+
+from gbiWindow import MainWindow
+import os
+import shutil
+
+
+def main():
+    Gtk.main()
+    return 0
+
+
+if __name__ == "__main__":
+    MainWindow()
+    main()

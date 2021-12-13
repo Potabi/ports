@@ -1,0 +1,16 @@
+[
+{ message=<<EOD
+===>   NOTICE:
+
+The potabi-installer port currently does not have a maintainer. As a result, it is
+more likely to have unresolved issues, not be up-to-date, or even be removed in
+the future. To volunteer to maintain this port, please create an issue at:
+
+https://bugs.freebsd.org/bugzilla
+
+More information about port maintainership is available at:
+
+https://docs.freebsd.org/en/articles/contributing/#ports-contributing
+EOD
+},
+]

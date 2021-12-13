@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Categories=GTK;System;
+NoDisplay=true
+Exec=gbi
+Name=Install Potabi
+Comment=Install Potabi
+Icon=/usr/local/lib/gbi/image/install-gbsd.png

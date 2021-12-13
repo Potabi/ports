@@ -1,0 +1,20 @@
+name: "potabi-installer"
+version: "ptbi.9.6"
+origin: sysutils/potabi-installer
+comment: <<EOD
+Potabi Installer is a fork of the GhostBSD "GBI" tool.
+EOD
+maintainer: ports@FreeBSD.org
+prefix: /usr/local
+categories: [ sysutils, ]
+licenselogic: single
+licenses: [ BSD, ]
+deps: { 
+"gettext-runtime": {origin: "devel/gettext-runtime", version: "0.21"}
+"glib": {origin: "devel/glib20", version: "2.70.0_1,2"}
+"py38-gobject3": {origin: "devel/py-gobject3", version: "3.38.0"}
+"py38-setuptools": {origin: "devel/py-setuptools", version: "57.0.0"}
+"python38": {origin: "lang/python38", version: "3.8.12"}
+}
+options: {
+}
