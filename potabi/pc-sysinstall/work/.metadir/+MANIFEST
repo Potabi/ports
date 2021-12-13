@@ -1,0 +1,16 @@
+name: "pc-sysinstall"
+version: "2021041900,1"
+origin: sysutils/pc-sysinstall
+comment: <<EOD
+TrueOS install backend
+EOD
+maintainer: kmoore@FreeBSD.org
+prefix: /usr/local
+categories: [ sysutils, ]
+licenselogic: single
+licenses: [ BSD2CLAUSE, ]
+deps: { 
+"cpdup": {origin: "sysutils/cpdup", version: "1.22"}
+}
+options: {
+}
