@@ -73,4 +73,4 @@ sbin/pc-sysinstall
 %%DATADIR%%/examples/pcinstall.cfg.restore
 %%DATADIR%%/examples/pcinstall.cfg.rsync
 %%DATADIR%%/examples/pcinstall.cfg.upgrade
-%%DATADIR%%/examples/pcinstall.cfg.zfs
+%%DATADIR%%/examples/pcinstall.cfg.zfs 

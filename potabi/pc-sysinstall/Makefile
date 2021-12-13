@@ -11,7 +11,7 @@ COMMENT=	TrueOS install backend
 
 LICENSE=	BSD2CLAUSE
 
-RUN_DEPENDS=	cpdup:sysutils
+RUN_DEPENDS=	cpdup:sysutils/cpdup
 
 USES=		pkgconfig tar:xz
 MAKE_ARGS=	PREFIX=${STAGEDIR}${PREFIX}
